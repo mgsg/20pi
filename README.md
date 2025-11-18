@@ -4,7 +4,8 @@ This is a fork of the model_d_controller project hosted  [here](https://github.c
 
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img title="Prototype" alt="Prototype" src="Images/20pi-prototype.png" width="400">
 
-
+ WARNING: This is a still unfinished DIY project. Use at your own risk!
+ 
 ## Motivation
 
 - The Teensy LC microcontroller is now deprecated. Alternatives suggested in the project github issues section (Teensy 4.0/4.1) are expensive.
