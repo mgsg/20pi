@@ -22,12 +22,13 @@ The original footprint for all three PCBs has been slightly reduced for cost opt
 
 ### Back PCB Changes
 - Complete redesign. It supports now either an ESP32 H2 DevKitM, a Raspberry Pico or a Waveshare Zero RP2040.
-- It includes an optional front PCB extension (daughterboard) that supports 4 rotary encoders and 4 addressable RGB leds using a GPIO expander. A new enlarged front panel PCB will have to be designed to accomodate this new encoders (PENDING).
+- It includes an optional front PCB extension (daughterboard) that supports 4 rotary encoders and 4 addressable RGB leds using a GPIO expander. The front panel PCB has been enlarged accordingly to accomodate this new encoders.
 - It connects to the back PCB using a header (I2C pins, Interruption, power,...)
 - For the Raspberry Pico MCU, the PCB inclues traces for an optional USB-C connector. This connector and a couple of resistors are the only SMD parts, all the rest uses THT parts.
 - Instead of 74hc4051 analog multiplexers with 8 channels, addon modules using the "denser" 74hc4061 variant with 16 channels have been used. They can be ordered for almost the same price as the 74hc4051. They can be directly soldered to the back PCB or mounted using "low profile" 3.5mm high sockets.
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img title="Back PCB front view" alt="Back PCB front view" src="Images/20pi_backpcb_v3_3d_view_front.png" width="400">
+  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img title="Back PCB back view" alt="Back PCB back view" src="Images/20pi_backpcb_v3_3d_view_back.png" width="400">
 
 ### Front PCB Changes
@@ -37,7 +38,8 @@ The original footprint for all three PCBs has been slightly reduced for cost opt
     MIDI CC 45
     ```
     
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img title="Front PCB front view" alt="Front PCB front view" src="Images/20pi_frontpcb_v3_3d_view_front.png" width="400">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img title="Front PCB front view" alt="Front PCB front view" src="Images/20pi_frontpcb_v3_3d_pers.png" width="400">
+  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img title="Front PCB back view"  alt="Front PCB back view" src="Images/20pi_frontpcb_v3_3d_view_back.png" width="400">
 
 ### Future additions
