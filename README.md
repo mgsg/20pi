@@ -1,6 +1,7 @@
-# 20pi - Multi-MPU MIDI Model D Controller
+# 20pi 
+Multi MPU MIDI D Controller = MMMDC = 3600 = 20pi
 
-This is a fork of the model_d_controller project hosted  [here](https://github.com/maasijam/model_d_controller). 
+This is a fork of [this project](https://github.com/maasijam/model_d_controller). 
 
   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img title="Prototype" alt="Prototype" src="Images/20pi-prototype.png" width="400"></p>
 
