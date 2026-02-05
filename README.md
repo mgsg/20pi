@@ -2,9 +2,10 @@
 
 This is a fork of the model_d_controller project hosted  [here](https://github.com/maasijam/model_d_controller). 
 
-  [//]: # (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img title="Prototype" alt="Prototype" src="Images/20pi-prototype.png" width="400">)
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img title="Prototype" alt="Prototype" src="Images/20pi-prototype.png" width="400"></p>
 
- WARNING: This is a still unfinished DIY project. Use at your own risk!
+| WARNING: DIY project. Use at your own risk!
+
  
 ## Motivation
 
@@ -12,17 +13,16 @@ This is a fork of the model_d_controller project hosted  [here](https://github.c
 
 ## Changes
 
-The original footprint for all three PCBs has been slightly reduced for cost optimization (5 front PCBs and 5 back PCBs now weight just under 1kg, to reduce shipping cost). 
+The original footprint for all three PCBs has been slightly reduced for cost optimization. 
 
 ### Front Plate Changes
 - Added a cutout to the front plate for the OLED display.
-- Depending on where you live, laser cutting the Front Plate on acrylic can reduce the cost a lot (at the expense of legibility).
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img title="Front Panel"  alt="Front Panel" src="Images/20pi_panel_v3_3d_view_front.png" width="400">
 
 ### Back PCB Changes
 - Complete redesign. It supports now either an ESP32 H2 DevKitM, a Raspberry Pico or a Waveshare Zero RP2040.
-- It includes an optional front PCB extension (daughterboard) that supports 4 rotary encoders and 4 addressable RGB leds using a GPIO expander. The front panel PCB has been enlarged accordingly to accomodate this new encoders.
+- It includes an optional front PCB daughterboard cutout that supports 4 rotary encoders and 4 addressable RGB leds using a GPIO expander. The front panel PCB has been enlarged accordingly to accomodate it.
 - It connects to the back PCB using a header (I2C pins, Interruption, power,...)
 - For the Raspberry Pico MCU, the PCB inclues traces for an optional USB-C connector. This connector and a couple of resistors are the only SMD parts, all the rest uses THT parts.
 - Instead of 74hc4051 analog multiplexers with 8 channels, addon modules using the "denser" 74hc4061 variant with 16 channels have been used. They can be ordered for almost the same price as the 74hc4051, and can be directly soldered to the back PCB or mounted using "low profile" 3.5mm high sockets.
@@ -42,7 +42,7 @@ The original footprint for all three PCBs has been slightly reduced for cost opt
   
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img title="Front PCB back view"  alt="Front PCB back view" src="Images/20pi_frontpcb_v3_3d_view_back.png" width="400">
 
-### Addition
+### Case
 - Included case to 3D print.
 
 ## Original Project Documentation
